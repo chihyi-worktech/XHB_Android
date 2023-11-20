@@ -19,15 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication(GlobalVariable.applicationID)
 
-Mobile.tap(findTestObject('Object Repository/FirstStart/agreePrivacy'), 0)
+WebUI.callTestCase(findTestCase('FirstEnter/CloseActivity'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+Mobile.tap(findTestObject('BottomNavigation/home'), 0)
 
-Mobile.swipe(400, 200, 200, 200)
+if (Mobile.waitForElementNotPresent(findTestObject('Object Repository/Login/home_Login'), 3)) {
+    WebUI.callTestCase(findTestCase('Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(400, 200, 200, 200)
+    Mobile.tap(findTestObject('BottomNavigation/home'), 0)
+}
 
-Mobile.tap(findTestObject('Object Repository/FirstStart/tryItNow'), 0)
+Mobile.tap(findTestObject('Object Repository/Login/home_Login'), 0)
 
-Mobile.closeApplication()
+Mobile.setText(findTestObject('Object Repository/Login/MT4Account'), GlobalVariable.MT4Account, 0)
+
+Mobile.setText(findTestObject('Object Repository/Login/password'), GlobalVariable.password, 0)
+
+Mobile.tap(findTestObject('Object Repository/Login/login'), 0)
+
+if (Mobile.waitForElementPresent(findTestObject('Object Repository/Login/login'), 3)) {
+    System.out.println('登錄失敗')
+} else {
+    System.out.println('登錄成功')
+}
 

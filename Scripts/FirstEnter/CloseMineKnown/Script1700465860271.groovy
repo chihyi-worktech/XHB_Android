@@ -17,17 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication(GlobalVariable.applicationID)
+if(Mobile.waitForElementPresent(findTestObject('Object Repository/FirstEnter/closeMineFirstEnter'), 3)) {
+	Mobile.tap(findTestObject('Object Repository/FirstEnter/closeMineFirstEnter'), 0)
+}
 
-Mobile.tap(findTestObject('Object Repository/FirstStart/agreePrivacy'), 0)
-
-WebUI.delay(2)
-
-Mobile.swipe(400, 200, 200, 200)
-
-Mobile.swipe(400, 200, 200, 200)
-
-Mobile.tap(findTestObject('Object Repository/FirstStart/tryItNow'), 0)
-
-Mobile.closeApplication()
-
+if(Mobile.waitForElementPresent(findTestObject('Object Repository/FirstEnter/closeMineFirstEnter(KYC)'), 3)) {
+	Mobile.tap(findTestObject('Object Repository/FirstEnter/closeMineFirstEnter(KYC)'), 0)
+}

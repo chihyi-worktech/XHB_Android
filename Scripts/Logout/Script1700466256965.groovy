@@ -17,17 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication(GlobalVariable.applicationID)
+//Mobile.startExistingApplication(GlobalVariable.applicationID)
 
-Mobile.tap(findTestObject('Object Repository/FirstStart/agreePrivacy'), 0)
+Mobile.tap(findTestObject('BottomNavigation/mine'), 0)
 
-WebUI.delay(2)
+WebUI.callTestCase(findTestCase('FirstEnter/CloseMineKnown'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(400, 200, 200, 200)
+Mobile.tap(findTestObject('Object Repository/Logout/mine_Setting'), 0)
 
-Mobile.swipe(400, 200, 200, 200)
+Mobile.tap(findTestObject('Object Repository/Logout/logout'), 0)
 
-Mobile.tap(findTestObject('Object Repository/FirstStart/tryItNow'), 0)
+Mobile.tap(findTestObject('Object Repository/Logout/logout_Check'), 0)
 
-Mobile.closeApplication()
+Mobile.pressBack()
 
