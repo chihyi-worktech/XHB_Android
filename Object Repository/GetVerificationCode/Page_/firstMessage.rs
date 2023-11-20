@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>firstMessage</name>
+   <tag></tag>
+   <elementGuidId>a26ab40a-dda2-4d05-a752-8dd6c9da7346</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td:nth-of-type(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div/div/div/span/div/table/tbody/tr/td[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>a9a0dbda-30b2-4646-b17e-a69584a76722</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>尊敬的用户，验证码为388279，请输入完成验证。有问题请致电852-38920688。 拒收请回复R </value>
+      <webElementGuid>3c3c61ba-a98d-46f0-9d63-7b7ca08571f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;gx-layout&quot;]/div[@class=&quot;gx-layout-main&quot;]/div[@class=&quot;gx-layout-container&quot;]/div[@class=&quot;gx-layout-content&quot;]/div[1]/div[@class=&quot;clearfix&quot;]/div[1]/div[@class=&quot;ant-spin-container&quot;]/div[@class=&quot;ant-table ant-table-large ant-table-scroll-position-left&quot;]/div[@class=&quot;ant-table-content&quot;]/div[1]/span[1]/div[@class=&quot;ant-table-body&quot;]/table[1]/tbody[@class=&quot;ant-table-tbody&quot;]/tr[@class=&quot;ant-table-row  ant-table-row-level-0&quot;]/td[2]</value>
+      <webElementGuid>ca34f11d-2fa1-44ba-af47-439891a6ba0a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div/div/div/span/div/table/tbody/tr/td[2]</value>
+      <webElementGuid>12622654-aff5-4b87-a629-3cfbdc087d5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]</value>
+      <webElementGuid>97f1083e-005a-4c87-80aa-6b9f896c55c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '尊敬的用户，验证码为388279，请输入完成验证。有问题请致电852-38920688。 拒收请回复R ' or . = '尊敬的用户，验证码为388279，请输入完成验证。有问题请致电852-38920688。 拒收请回复R ')]</value>
+      <webElementGuid>81b0b43a-d13c-4143-a73f-58037db8ffcd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
