@@ -18,21 +18,20 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Mobile.startExistingApplication(GlobalVariable.applicationID)
-'點擊我的'
-Mobile.tap(findTestObject('BottomNavigation/mine'), 0)
+'點擊交易'
+Mobile.tap(findTestObject('BottomNavigation/trade'), 0)
 
-'關閉我的首進提示訊息'
-CustomKeywords.'customKeyword.FirstEnter.closeMineKnown'()
+CustomKeywords.'customKeyword.FirstEnter.closeTradeKnown'()
 
-'點擊系統設置'
-Mobile.tap(findTestObject('Object Repository/Logout/mine_Setting'), 0)
+'點擊資產'
+Mobile.tap(findTestObject('Trade/Trade_Assets'), 0)
 
-'點擊登出'
-Mobile.tap(findTestObject('Object Repository/Logout/logout'), 0)
+'點擊掛單'
+Mobile.tap(findTestObject('Trade/Assets(Folder)/assets_PendingOrder'), 0)
 
-'點擊確認'
-Mobile.tap(findTestObject('Object Repository/Logout/logout_Check'), 0)
+'點擊第一筆掛單'
+Mobile.tap(findTestObject('Object Repository/Trade/CancelPendingOrder(Folder)/firstPendingOrder'), 0)
 
-'回到我的頁面'
-Mobile.pressBack()
+'撤銷'
+Mobile.tap(findTestObject('Object Repository/Trade/CancelPendingOrder(Folder)/cancelPendingOrder'), 0)
 

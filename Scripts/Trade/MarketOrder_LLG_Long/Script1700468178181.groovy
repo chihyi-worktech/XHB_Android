@@ -18,18 +18,23 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Mobile.startExistingApplication(GlobalVariable.applicationID, FailureHandling.STOP_ON_FAILURE)
-
+'點擊交易'
 Mobile.tap(findTestObject('BottomNavigation/trade'), 0)
 
-WebUI.callTestCase(findTestCase('FirstEnter/CloseTradeKnown'), [:], FailureHandling.STOP_ON_FAILURE)
+'關閉首進提示訊息'
+CustomKeywords.'customKeyword.FirstEnter.closeTradeKnown'()
 
-Mobile.tap(findTestObject('Trade/marketOrder'), 0)
+'點擊市價交易'
+Mobile.tap(findTestObject('Trade/Trade_MarketOrder'), 0)
 
+'選擇商品_LLG'
 Mobile.tap(findTestObject('Trade/MarketOrder(Folder)/marketOrder_Menu'), 0)
 
 Mobile.tap(findTestObject('Trade/MarketOrder(Folder)/LLG'), 0)
 
+'點擊買漲'
 Mobile.tap(findTestObject('Trade/MarketOrder(Folder)/long'), 0)
 
+'點擊查看持倉'
 Mobile.tap(findTestObject('Trade/MarketOrder(Folder)/checkPosition'), 0)
 

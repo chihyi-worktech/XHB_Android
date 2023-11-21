@@ -19,15 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication(GlobalVariable.applicationID)
 
-Mobile.tap(findTestObject('Object Repository/FirstStart/agreePrivacy'), 0)
+'同意隱私權政策'
+Mobile.tap(findTestObject('Object Repository/FirstStart/agreePrivacy'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(2)
 
-Mobile.swipe(400, 200, 200, 200)
+CustomKeywords.'customKeyword.StartFail.StartFailMessage'()
 
 Mobile.swipe(400, 200, 200, 200)
 
+Mobile.swipe(400, 200, 200, 200)
+
+'點擊立即嘗試'
 Mobile.tap(findTestObject('Object Repository/FirstStart/tryItNow'), 0)
-
-Mobile.closeApplication()
 

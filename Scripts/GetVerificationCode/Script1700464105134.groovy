@@ -16,33 +16,44 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.FileWriter as FileWriter
+import java.io.IOException as IOException
 
 WebUI.openBrowser('')
 
+'輸入驗證碼查詢網址'
 WebUI.navigateToUrl(GlobalVariable.CRMUrl)
 
+'輸入帳號'
 WebUI.setText(findTestObject('Object Repository/GetVerificationCode/Page_Login/CRMAccount'), GlobalVariable.CRMAccount)
 
+'輸入密碼'
 WebUI.setText(findTestObject('Object Repository/GetVerificationCode/Page_Login/CRMPassword'), GlobalVariable.CRMPassword)
 
+'登錄'
 WebUI.click(findTestObject('Object Repository/GetVerificationCode/Page_Login/CRMLogin'))
 
+'輸入手機號'
 WebUI.setText(findTestObject('Object Repository/GetVerificationCode/Page_/phoneNumber'), GlobalVariable.phoneNumber)
 
+'點擊查詢'
 WebUI.click(findTestObject('Object Repository/GetVerificationCode/Page_/search'))
 
-String Message=WebUI.getText(findTestObject('Object Repository/GetVerificationCode/Page_/firstMessage'))
+'獲取第一筆驗證碼資料'
+String Message = WebUI.getText(findTestObject('Object Repository/GetVerificationCode/Page_/firstMessage'))
 
-String VerificationCode=Message.substring(10,16);
+String VerificationCode = Message.substring(10, 16)
 
-System.out.println("驗證碼為："+VerificationCode);
+System.out.println('驗證碼為：' + VerificationCode)
 
 WebUI.closeBrowser()
 
-FileWriter fw = new FileWriter("VerificationCode.txt");
-fw.write(VerificationCode);
-fw.flush();
-fw.close();
+'將驗證碼寫入檔案'
+FileWriter fw = new FileWriter('VerificationCode.txt')
+
+fw.write(VerificationCode)
+
+fw.flush()
+
+fw.close()
 

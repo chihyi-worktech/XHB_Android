@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "90525B41D1710EA2F4DDEBAE24DA9BE8",
+  "keywordClasses": [
+    {
+      "name": "customKeyword.StartFail",
+      "keywordMethods": [
+        {
+          "name": "StartFailMessage",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

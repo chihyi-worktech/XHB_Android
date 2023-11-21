@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "5480E13E29D63E658BF31FFC31265DC6",
+  "keywordClasses": [
+    {
+      "name": "customKeyword.deposit",
+      "keywordMethods": [
+        {
+          "name": "submitDeposit",
+          "parameters": [
+            {
+              "name": "depositAmount",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

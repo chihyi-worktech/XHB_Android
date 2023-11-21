@@ -18,21 +18,35 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Mobile.startExistingApplication(GlobalVariable.applicationID)
-'點擊我的'
-Mobile.tap(findTestObject('BottomNavigation/mine'), 0)
+'點擊交易'
+Mobile.tap(findTestObject('BottomNavigation/trade'), 0)
 
-'關閉我的首進提示訊息'
-CustomKeywords.'customKeyword.FirstEnter.closeMineKnown'()
+'關閉首進提示'
+CustomKeywords.'customKeyword.FirstEnter.closeTradeKnown'()
 
-'點擊系統設置'
-Mobile.tap(findTestObject('Object Repository/Logout/mine_Setting'), 0)
+'點擊掛單交易'
+Mobile.tap(findTestObject('Trade/Trade_PendingOrder'), 0)
 
-'點擊登出'
-Mobile.tap(findTestObject('Object Repository/Logout/logout'), 0)
+'選擇商品_LLG'
+Mobile.tap(findTestObject('Object Repository/Trade/PendingOrder(Folder)/pendingOrder_Menu'), 0)
 
-'點擊確認'
-Mobile.tap(findTestObject('Object Repository/Logout/logout_Check'), 0)
+Mobile.tap(findTestObject('Object Repository/Trade/PendingOrder(Folder)/LLG'), 0)
 
-'回到我的頁面'
-Mobile.pressBack()
+'點擊買漲'
+Mobile.tap(findTestObject('Object Repository/Trade/PendingOrder(Folder)/PendingOrder_Long'), 0)
+
+'點擊掛單價格+，直接設定掛單價格顯示為掛單價格為空'
+Mobile.tap(findTestObject('Object Repository/Trade/PendingOrder(Folder)/pendingOrder_PriceAdd'), 0)
+
+'設定掛單價格'
+Mobile.setText(findTestObject('Trade/PendingOrder(Folder)/pendingOrder_Price'), '2050', 0)
+
+'點擊手數+'
+Mobile.tap(findTestObject('Object Repository/Trade/PendingOrder(Folder)/pendingOrder_LotSizeAdd'), 0)
+
+'點擊確認掛單'
+Mobile.tap(findTestObject('Trade/PendingOrder(Folder)/ConfirmPendingOrder'), 0)
+
+'點擊查看掛單'
+Mobile.tap(findTestObject('Trade/PendingOrder(Folder)/checkPendingOrder'), 0)
 

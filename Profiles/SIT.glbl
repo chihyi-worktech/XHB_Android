@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>PROD</name>
+   <name>SIT</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
@@ -11,17 +11,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'984491'</initValue>
+      <initValue>'979912'</initValue>
       <name>MT4Account</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'123456'</initValue>
+      <initValue>'qwe123'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://pme-crm.91pme.com.cn/code.html#/'</initValue>
+      <initValue>'http://pme-crm.sit9m88.cc/code.html#/'</initValue>
       <name>CRMUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -31,12 +31,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Winds0413'</initValue>
+      <initValue>'Test1234'</initValue>
       <name>CRMPassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'500'</initValue>
+      <initValue>'50'</initValue>
       <name>withdrawAmount</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -46,7 +46,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'990861'</initValue>
+      <initValue>'10000149'</initValue>
       <name>KYCAccount</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -56,12 +56,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'范文东'</initValue>
+      <initValue>'柳文'</initValue>
       <name>KYCName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'51021319670323121X'</initValue>
+      <initValue>'510221197608186013'</initValue>
       <name>KYCID</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

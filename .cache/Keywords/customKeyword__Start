@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "8908021FF08A95FD865E86291CC1C118",
+  "keywordClasses": [
+    {
+      "name": "customKeyword.Start",
+      "keywordMethods": [
+        {
+          "name": "StartFail",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

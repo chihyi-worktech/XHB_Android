@@ -18,22 +18,28 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication(GlobalVariable.applicationID, FailureHandling.STOP_ON_FAILURE)
-
+'點擊交易'
 Mobile.tap(findTestObject('BottomNavigation/trade'), 0)
 
-WebUI.callTestCase(findTestCase('FirstEnter/CloseTradeKnown'), [:], FailureHandling.STOP_ON_FAILURE)
+'關閉首進訊息'
+CustomKeywords.'customKeyword.FirstEnter.closeTradeKnown'()
 
-Mobile.tap(findTestObject('Trade/assets'), 0)
+'點擊資產'
+Mobile.tap(findTestObject('Trade/Trade_Assets'), 0)
 
+'點擊持倉'
 Mobile.tap(findTestObject('Trade/Assets(Folder)/assets_Position'), 0)
-if(Mobile.waitForElementPresent(findTestObject('Trade/ClosePosition(Folder)/firstPosition_UIAutomator'), 3)) {
-	Mobile.tap(findTestObject('Trade/ClosePosition(Folder)/firstPosition_UIAutomator'), 0)
-}
 
-else {
+'選擇第一筆持倉'
+if (Mobile.waitForElementPresent(findTestObject('Object Repository/Trade/ClosePosition(Folder)/firstPosition_UIAutomator'), 3)) {
+ 
+	Mobile.tap(findTestObject('Object Repository/Trade/ClosePosition(Folder)/firstPosition_UIAutomator'), 0)
+	   
+} else if(Mobile.waitForElementPresent(findTestObject('Object Repository/Trade/ClosePosition(Folder)/firstPosition_XPATH'),0)){
+    
 	Mobile.tap(findTestObject('Object Repository/Trade/ClosePosition(Folder)/firstPosition_XPATH'), 0)
 }
 
-
+'點擊平倉'
 Mobile.tap(findTestObject('Trade/ClosePosition(Folder)/ClosePosition'), 0)
 
