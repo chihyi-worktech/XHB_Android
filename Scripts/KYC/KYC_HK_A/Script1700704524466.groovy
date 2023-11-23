@@ -33,11 +33,44 @@ Mobile.tap(findTestObject('KYC/accountManagement'), 0)
 '點擊實名認證'
 Mobile.tap(findTestObject('KYC/KYC'), 0)
 
+'輸入真實姓名'
+Mobile.setText(findTestObject('KYC/TwoElements/KYC_Name'), 'TW測試', 0)
+
+'輸入身分證號'
+Mobile.setText(findTestObject('KYC/TwoElements/KYC_ID'), 'T016728(7)', 0)
+
 '點擊下一步'
 Mobile.tap(findTestObject('Object Repository/KYC/BankCertification/KYC_Next'), 0)
 
-'點擊下一步'
-Mobile.tap(findTestObject('KYC/BankModification/idPhoho_Next'), 0)
+'點擊身分證照片正面'
+Mobile.tap(findTestObject('Object Repository/KYC/BankCertification/idPhoto_Front'), 0)
+
+'同意存取權'
+CustomKeywords.'customKeyword.AgreePermission.Permission'()
+
+'打開相簿'
+Mobile.tap(findTestObject('Object Repository/KYC/BankCertification/openAlbum'), 0)
+
+'選擇第一張照片'
+Mobile.tap(findTestObject('Object Repository/KYC/BankCertification/chooseFirstPhoto'), 0)
+
+'確認照片'
+Mobile.tap(findTestObject('Object Repository/KYC/BankCertification/confirmPhoto'), 0)
+
+'點擊身分證照片背面'
+Mobile.tap(findTestObject('Object Repository/KYC/BankCertification/idPhoto_Back'), 0)
+
+'打開相簿'
+Mobile.tap(findTestObject('Object Repository/KYC/BankCertification/openAlbum'), 0)
+
+'選擇第一張照片'
+Mobile.tap(findTestObject('Object Repository/KYC/BankCertification/chooseFirstPhoto'), 0)
+
+'確認照片'
+Mobile.tap(findTestObject('Object Repository/KYC/BankCertification/confirmPhoto'), 0)
+
+'點擊確認上傳'
+Mobile.tap(findTestObject('Object Repository/KYC/BankCertification/confirmUpload'), 0)
 
 '輸入銀行分支'
 Mobile.setText(findTestObject('Object Repository/KYC/BankCertification/bank_Branch'), 'test', 0)
@@ -47,9 +80,6 @@ Mobile.setText(findTestObject('Object Repository/KYC/BankCertification/bank_Addr
 
 '點擊銀行照片'
 Mobile.tap(findTestObject('Object Repository/KYC/BankCertification/bank_Photo'), 0)
-
-'同意存取權'
-CustomKeywords.'customKeyword.AgreePermission.Permission'()
 
 '打開相簿'
 Mobile.tap(findTestObject('Object Repository/KYC/BankCertification/openAlbum'), 0)

@@ -91,12 +91,12 @@ Mobile.tap(findTestObject('Object Repository/KYC/BankCertification/bank_Next'), 
 Mobile.setText(findTestObject('Object Repository/KYC/BankCertification/bank_Account'), '01234567890', 0)
 
 '選擇國碼_+86'
-Mobile.tap(findTestObject('Object Repository/KYC/BankCertification/countryCode'), 0)
+Mobile.tap(findTestObject('KYC/BankCertification/countryCode_CN'), 0)
 
 Mobile.tap(findTestObject('Object Repository/KYC/BankCertification/countryCode_86'), 0)
 
 '輸入手機號'
-Mobile.setText(findTestObject('Object Repository/KYC/BankCertification/phoneNumber'), GlobalVariable.phoneNumber, 0)
+Mobile.setText(findTestObject('KYC/BankCertification/Mobile'), GlobalVariable.phoneNumber, 0)
 
 '點擊獲取驗證碼'
 Mobile.tap(findTestObject('Object Repository/KYC/BankCertification/getVerificationCode'), 0)
