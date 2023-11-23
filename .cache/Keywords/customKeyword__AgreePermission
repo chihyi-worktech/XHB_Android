@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "8C39EB2B749C79DDDF5CAAAF0A8893E5",
+  "keywordClasses": [
+    {
+      "name": "customKeyword.AgreePermission",
+      "keywordMethods": [
+        {
+          "name": "Permission",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

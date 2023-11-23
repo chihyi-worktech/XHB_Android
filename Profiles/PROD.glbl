@@ -41,7 +41,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'13059529142'</initValue>
+      <initValue>'15724094276'</initValue>
       <name>phoneNumber</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -63,5 +63,15 @@
       <description></description>
       <initValue>'51021319670323121X'</initValue>
       <name>KYCID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'984377'</initValue>
+      <name>HKAccount</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'qwe123'</initValue>
+      <name>HKPassword</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

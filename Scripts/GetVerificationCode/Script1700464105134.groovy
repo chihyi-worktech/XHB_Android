@@ -42,7 +42,7 @@ WebUI.click(findTestObject('Object Repository/GetVerificationCode/Page_/search')
 '獲取第一筆驗證碼資料'
 String Message = WebUI.getText(findTestObject('Object Repository/GetVerificationCode/Page_/firstMessage'))
 
-String VerificationCode = Message.substring(10, 16)
+String VerificationCode = Message.substring(9, 15)
 
 System.out.println('驗證碼為：' + VerificationCode)
 

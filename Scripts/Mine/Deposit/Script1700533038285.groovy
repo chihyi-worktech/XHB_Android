@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication(GlobalVariable.applicationID, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Object Repository/BottomNavigation/mine'), 0)
 
 '關閉首進我的提示訊息'
@@ -31,6 +32,7 @@ Mobile.tap(findTestObject('Mine/Deposit/payment'), 0)
 
 String depositAmount
 
+'選擇入金支付渠道'
 if (Mobile.waitForElementPresent(findTestObject('Mine/Deposit/Alipay'), 3)) {
     Mobile.tap(findTestObject('Mine/Deposit/Alipay'), 0)
 
