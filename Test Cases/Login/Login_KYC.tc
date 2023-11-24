@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login</name>
+   <name>Login_KYC</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>55ea43e6-c795-4aa1-ac92-847e7d17d3d8</testCaseGuid>
+   <testCaseGuid>dffc399f-1525-474f-b58b-129aceb48b44</testCaseGuid>
 </TestCaseEntity>

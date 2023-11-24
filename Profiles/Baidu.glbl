@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'com.pme91.softapp.android'</initValue>
+      <initValue>'com.pmeab91.android'</initValue>
       <name>applicationID</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

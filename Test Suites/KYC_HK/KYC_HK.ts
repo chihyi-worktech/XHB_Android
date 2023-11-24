@@ -25,7 +25,7 @@
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/KYC_HK/KYC_HK_A</testSuiteEntity>
+         <testSuiteEntity>Test Suites/KYC_HK/KYC_HK_LoginAndDepositAndKYCA</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>

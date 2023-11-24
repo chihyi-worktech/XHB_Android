@@ -28,7 +28,18 @@ CustomKeywords.'customKeyword.FirstEnter.closeMineKnown'()
 Mobile.tap(findTestObject('Mine/Deposit/mine_Deposit'), 0)
 
 '選擇入金方式'
-Mobile.tap(findTestObject('Mine/Deposit/payment'), 0)
+
+if(Mobile.waitForElementPresent(findTestObject('Mine/Deposit/payment'), 3)) {
+
+	Mobile.tap(findTestObject('Mine/Deposit/payment'), 0)
+
+}
+
+else {
+	Mobile.tap(findTestObject('Object Repository/Mine/Deposit/payment_2'), 0)
+	
+}
+
 
 String depositAmount
 
