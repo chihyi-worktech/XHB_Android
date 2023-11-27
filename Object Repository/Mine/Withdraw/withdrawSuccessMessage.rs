@@ -3,16 +3,16 @@
    <description></description>
    <name>withdrawSuccessMessage</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>86128d5d-833d-4828-838d-af9d9cfc9150</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>d0d54b81-5453-42c6-a8f0-0f978197e398</webElementGuid>
+      <webElementGuid>16de1ede-7d06-47e2-8293-ff157050509c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,7 +20,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>71f5e810-bec6-4108-8383-f8fd10e17b7f</webElementGuid>
+      <webElementGuid>b494347a-05eb-4073-9434-8c8bc931984d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,7 +28,7 @@
       <name>text</name>
       <type>Main</type>
       <value>您的出金申请已提交，请耐心等待审核。</value>
-      <webElementGuid>73eb79fa-a48c-4381-81b6-73aa1687021c</webElementGuid>
+      <webElementGuid>b4cc28a5-141a-4159-8d88-82b37e392d51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,7 +36,7 @@
       <name>package</name>
       <type>Main</type>
       <value>vjxlds.fqlybf.ahzmys.knbifb</value>
-      <webElementGuid>b8cd8ed6-ce33-4e52-9165-0f1a46abced6</webElementGuid>
+      <webElementGuid>7f032fc2-a576-4ddb-9df9-b8f101641971</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +44,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>95d54ce1-d74f-4fb6-9fb8-1caef2ca7b84</webElementGuid>
+      <webElementGuid>8fe586b5-8bee-4d9b-8147-f18a1c719966</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>6d870e14-c516-486c-8a34-99a1abe70d66</webElementGuid>
+      <webElementGuid>e96eaeb2-e2fd-455e-a4ab-b6fd32785c98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,7 +60,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>85f67f65-be83-48f7-a628-06422a46d5d2</webElementGuid>
+      <webElementGuid>ee1d3caa-211d-4762-95d8-8f4410e8eb4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>5ee2d4f9-f567-4197-9d2f-9d5180ceeb53</webElementGuid>
+      <webElementGuid>0f652500-2226-4f39-8c65-4f63f107a654</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e0e18a6d-faea-405a-9f27-cb739956d9a9</webElementGuid>
+      <webElementGuid>d98316c5-e037-4568-8f41-d12bc0c0759b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>345b2d2f-25d4-4b52-a1c7-0f794aa69764</webElementGuid>
+      <webElementGuid>3c877ff4-784c-4fd0-a827-af4a74f10d07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>2291964c-aaa0-4c2f-8043-582ddf83ede8</webElementGuid>
+      <webElementGuid>a274fa2f-20b8-4a53-a4aa-493e0cc67696</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b57e9806-c355-4650-a862-4faa8ac27727</webElementGuid>
+      <webElementGuid>7c0564ed-573b-468e-b7d0-0e8b98123254</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -108,7 +108,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>8c1f2567-16da-4dde-8212-01f00fdcc29a</webElementGuid>
+      <webElementGuid>a5d163e7-4693-4f10-a7ec-51af47d02a52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -116,7 +116,7 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d868cad2-a3dd-4676-8a64-1ab9624a1575</webElementGuid>
+      <webElementGuid>d58bf92d-b871-4465-b7e3-24b8fd8d9dd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -124,7 +124,7 @@
       <name>x</name>
       <type>Main</type>
       <value>43</value>
-      <webElementGuid>3b9354ba-215e-4609-8004-d30349dbb466</webElementGuid>
+      <webElementGuid>e616a4d1-a993-49d9-823a-4c6683bfbda9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -132,7 +132,7 @@
       <name>y</name>
       <type>Main</type>
       <value>611</value>
-      <webElementGuid>1df89012-97f0-4076-a42f-2c157feb80cb</webElementGuid>
+      <webElementGuid>ef69a5cb-b53d-4e8d-b037-c3a8e39cbce4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -140,7 +140,7 @@
       <name>width</name>
       <type>Main</type>
       <value>635</value>
-      <webElementGuid>710fffd5-f196-4acf-b796-9d565f241590</webElementGuid>
+      <webElementGuid>5ceff420-fcc7-4baf-9252-f470e045a559</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -148,7 +148,7 @@
       <name>height</name>
       <type>Main</type>
       <value>192</value>
-      <webElementGuid>e1b7faa2-6751-43e8-9595-98472586dc54</webElementGuid>
+      <webElementGuid>2ce8832d-6bba-4328-99f1-f4f094f256f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -156,7 +156,7 @@
       <name>bounds</name>
       <type>Main</type>
       <value>[43,611][678,803]</value>
-      <webElementGuid>158b3f4f-4fb8-4c63-b838-9b8d888995f7</webElementGuid>
+      <webElementGuid>4113505a-0be4-447b-a399-2a3becb62c04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -164,7 +164,7 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>307b7c7b-1ff2-4cec-a940-af82b3566f9b</webElementGuid>
+      <webElementGuid>9a339d40-8cfe-480b-8c31-bf0823df1b9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -172,8 +172,8 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[2]/android.widget.TextView[1]</value>
-      <webElementGuid>14d78906-0090-402f-b714-95b56f9a84e8</webElementGuid>
+      <webElementGuid>4c4c37fa-0503-42e8-8fe4-06a03749a6e3</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.TextView' and (@text = '您的出金申请已提交，请耐心等待审核。' or . = '您的出金申请已提交，请耐心等待审核。')]</locator>
+   <locator>//*[(@text = '您的出金申请已提交，请耐心等待审核。' or . = '您的出金申请已提交，请耐心等待审核。')]</locator>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
 </MobileElementEntity>

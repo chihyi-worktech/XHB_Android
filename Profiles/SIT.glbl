@@ -6,17 +6,17 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'vjxlds.fqlybf.ahzmys.knbifb'</initValue>
+      <initValue>'com.pmeab91.android'</initValue>
       <name>applicationID</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'979912'</initValue>
+      <initValue>'10000142'</initValue>
       <name>MT4Account</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'qwe123'</initValue>
+      <initValue>'123456'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

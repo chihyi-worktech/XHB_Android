@@ -10,7 +10,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Mobile</groupName>
-            <profileName>default</profileName>
+            <profileName>SIT</profileName>
             <requireConfigurationData>true</requireConfigurationData>
             <runConfigurationData>
                <entry>
@@ -24,13 +24,13 @@
             </runConfigurationData>
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/NewAPP</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Mobile</groupName>
-            <profileName>default</profileName>
+            <profileName>SIT</profileName>
             <requireConfigurationData>true</requireConfigurationData>
             <runConfigurationData>
                <entry>
@@ -44,23 +44,23 @@
             </runConfigurationData>
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/SignUp_CN/Singup_A</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
+            <profileName>SIT</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/GetVerification</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Mobile</groupName>
-            <profileName>default</profileName>
+            <profileName>SIT</profileName>
             <requireConfigurationData>true</requireConfigurationData>
             <runConfigurationData>
                <entry>
@@ -74,13 +74,13 @@
             </runConfigurationData>
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/SignUp_CN/Singup_B</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Mobile</groupName>
-            <profileName>default</profileName>
+            <profileName>SIT</profileName>
             <requireConfigurationData>true</requireConfigurationData>
             <runConfigurationData>
                <entry>
@@ -94,13 +94,13 @@
             </runConfigurationData>
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/KYC/KYC_LoginAndTwoElements</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Mobile</groupName>
-            <profileName>default</profileName>
+            <profileName>SIT</profileName>
             <requireConfigurationData>true</requireConfigurationData>
             <runConfigurationData>
                <entry>
@@ -114,23 +114,23 @@
             </runConfigurationData>
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/BankCertification/BankCertification_A</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
+            <profileName>SIT</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/GetVerification</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Mobile</groupName>
-            <profileName>default</profileName>
+            <profileName>SIT</profileName>
             <requireConfigurationData>true</requireConfigurationData>
             <runConfigurationData>
                <entry>
@@ -144,13 +144,113 @@
             </runConfigurationData>
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/BankCertification/BankCertification_B</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Mobile</groupName>
-            <profileName>default</profileName>
+            <profileName>SIT</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>vivo V2110 (Android 13)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>3458168266003R1</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/BankModification/BankModification_A</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>SIT</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/GetVerification</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Mobile</groupName>
+            <profileName>SIT</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>vivo V2110 (Android 13)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>3458168266003R1</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/BankCertification/BankCertification_B</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Mobile</groupName>
+            <profileName>SIT</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>vivo V2110 (Android 13)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>3458168266003R1</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/HK/KYC_HK_LoginAndKYCA</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>SIT</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/GetVerification</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Mobile</groupName>
+            <profileName>SIT</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>vivo V2110 (Android 13)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>3458168266003R1</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/BankCertification/BankCertification_B</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Mobile</groupName>
+            <profileName>SIT</profileName>
             <requireConfigurationData>true</requireConfigurationData>
             <runConfigurationData>
                <entry>
@@ -170,7 +270,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
+            <profileName>SIT</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
@@ -180,7 +280,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Mobile</groupName>
-            <profileName>default</profileName>
+            <profileName>SIT</profileName>
             <requireConfigurationData>true</requireConfigurationData>
             <runConfigurationData>
                <entry>
@@ -200,7 +300,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Mobile</groupName>
-            <profileName>default</profileName>
+            <profileName>SIT</profileName>
             <requireConfigurationData>true</requireConfigurationData>
             <runConfigurationData>
                <entry>
@@ -215,87 +315,7 @@
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/KYC_HK/KYC_HK_LoginAndDepositAndKYCA</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/GetVerification</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Mobile</groupName>
-            <profileName>default</profileName>
-            <requireConfigurationData>true</requireConfigurationData>
-            <runConfigurationData>
-               <entry>
-                  <key>deviceName</key>
-                  <value>vivo V2110 (Android 13)</value>
-               </entry>
-               <entry>
-                  <key>deviceId</key>
-                  <value>3458168266003R1</value>
-               </entry>
-            </runConfigurationData>
-            <runConfigurationId>Android</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/BankCertification/BankCertification_B</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Mobile</groupName>
-            <profileName>default</profileName>
-            <requireConfigurationData>true</requireConfigurationData>
-            <runConfigurationData>
-               <entry>
-                  <key>deviceName</key>
-                  <value>vivo V2110 (Android 13)</value>
-               </entry>
-               <entry>
-                  <key>deviceId</key>
-                  <value>3458168266003R1</value>
-               </entry>
-            </runConfigurationData>
-            <runConfigurationId>Android</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/BankModification/BankModification_A</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/GetVerification</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Mobile</groupName>
-            <profileName>default</profileName>
-            <requireConfigurationData>true</requireConfigurationData>
-            <runConfigurationData>
-               <entry>
-                  <key>deviceName</key>
-                  <value>vivo V2110 (Android 13)</value>
-               </entry>
-               <entry>
-                  <key>deviceId</key>
-                  <value>3458168266003R1</value>
-               </entry>
-            </runConfigurationData>
-            <runConfigurationId>Android</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/BankCertification/BankCertification_B</testSuiteEntity>
+         <testSuiteEntity>Test Suites/HK/DepositTT</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

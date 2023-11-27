@@ -28,9 +28,15 @@ public class deposit {
 	@Keyword
 	def submitDeposit(String depositAmount){
 
-		Mobile.setText(findTestObject('Mine/Deposit/depositAmount'), depositAmount, 0)
-
-		Mobile.tap(findTestObject('Mine/Deposit/checkDeposit'), 0)
+		Mobile.setText(findTestObject('Object Repository/Mine/Deposit/depositAmount'), depositAmount, 0)
+		
+		if(Mobile.waitForElementPresent(findTestObject('Mine/Deposit/checkDeposit'), 3)) {
+			Mobile.tap(findTestObject('Mine/Deposit/checkDeposit'), 0)
+		}
+		else {
+			Mobile.tap(findTestObject('Object Repository/Mine/Deposit/checkDeposit_2'), 0)
+			
+		}
 
 		if(Mobile.waitForElementPresent(findTestObject('Object Repository/Mine/Deposit/blacklistMessage'), 3)) {
 			String timeStamp = new SimpleDateFormat("yyyyMMddHHmmss").format(Calendar.getInstance().getTime());
@@ -58,7 +64,7 @@ public class deposit {
 			Mobile.takeScreenshot(filename, FailureHandling.STOP_ON_FAILURE)
 			'回到我的頁面'
 			Mobile.pressBack()
-			
+
 			Mobile.pressBack()
 		}
 	}
