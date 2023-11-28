@@ -6,6 +6,11 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'PROD'</initValue>
+      <name>environment</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'vjxlds.fqlybf.ahzmys.knbifb'</initValue>
       <name>applicationID</name>
    </GlobalVariableEntity>
@@ -43,6 +48,11 @@
       <description></description>
       <initValue>'13059529142'</initValue>
       <name>phoneNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://pme-op-audit.91pme.com.cn/cert.html'</initValue>
+      <name>KYCURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

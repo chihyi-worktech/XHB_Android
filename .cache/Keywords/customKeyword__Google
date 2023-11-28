@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "DC8FB39D8BC856820A8F4F6C6A546654",
+  "keywordClasses": [
+    {
+      "name": "customKeyword.Google",
+      "keywordMethods": [
+        {
+          "name": "googleAutoSavePassword",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

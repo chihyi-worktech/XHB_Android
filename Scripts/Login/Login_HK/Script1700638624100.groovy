@@ -32,9 +32,11 @@ Mobile.tap(findTestObject('BottomNavigation/home'), 0)
 
 '是否已登錄判斷；已登錄則登出'
 if (Mobile.waitForElementNotPresent(findTestObject('Object Repository/Login/home_Login'), 3)) {
+	
     WebUI.callTestCase(findTestCase('Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+	
+	Mobile.tap(findTestObject('BottomNavigation/home'), 0)
 
-    Mobile.tap(findTestObject('BottomNavigation/home'), 0)
 }
 
 '點擊登錄'
@@ -61,5 +63,7 @@ if (Mobile.waitForElementPresent(findTestObject('Object Repository/Login/login')
     System.out.println('登錄失敗')
 } else {
     System.out.println('登錄成功')
+	
+	CustomKeywords.'customKeyword.Google.googleAutoSavePassword'()
 }
 

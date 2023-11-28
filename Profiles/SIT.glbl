@@ -6,7 +6,12 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'com.pmeab91.android'</initValue>
+      <initValue>'SIT'</initValue>
+      <name>environment</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'com.huibao.app.android'</initValue>
       <name>applicationID</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -43,6 +48,11 @@
       <description></description>
       <initValue>'15724094276'</initValue>
       <name>phoneNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://pme-op-audit.sit9m88.cc/cert.html'</initValue>
+      <name>KYCURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

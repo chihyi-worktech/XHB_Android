@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>search</name>
+   <tag></tag>
+   <elementGuidId>3286eef2-04a7-445d-a4f8-1e2bc0b606d3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.pull-right.gx-margin-left-5 > button.ant-btn.ant-btn-primary > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/div/div[2]/div[2]/div/div/div/div/div/div[6]/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>44cefa4a-b104-4e3f-9ae4-227e16c69493</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>查 询</value>
+      <webElementGuid>f4a419a9-01d1-4775-9f49-3598594922ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;gx-layout&quot;]/div[@class=&quot;gx-layout-main&quot;]/div[@class=&quot;gx-layout-container&quot;]/div[@class=&quot;gx-layout-content&quot;]/div[1]/div[1]/div[@class=&quot;ant-row gx-table-toolbar&quot;]/div[1]/div[@class=&quot;pull-right gx-margin-left-5&quot;]/button[@class=&quot;ant-btn ant-btn-primary&quot;]/span[1]</value>
+      <webElementGuid>6340673f-667a-45b6-8063-5ba87d33172c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div/div[2]/div[2]/div/div/div/div/div/div[6]/button/span</value>
+      <webElementGuid>94416745-f756-4b4c-af3e-8983c893ce2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/button/span</value>
+      <webElementGuid>184ac5db-bab9-4cdd-8a59-dbd54d389871</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '查 询' or . = '查 询')]</value>
+      <webElementGuid>57c750b5-81ae-40dd-a76a-ad59da73a0b9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

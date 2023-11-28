@@ -20,15 +20,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class AgreePermission {
+public class Google {
+	
 	@Keyword
-	def Permission() {
-		if (Mobile.waitForElementPresent(findTestObject('Object Repository/KYC/BankCertification/agree_Use'), 3)) {
-			Mobile.tap(findTestObject('Object Repository/KYC/BankCertification/agree_Use'), 0)
-		}
-
-		if (Mobile.waitForElementPresent(findTestObject('Object Repository/KYC/BankCertification/agree_Photo'), 3)) {
-			Mobile.tap(findTestObject('Object Repository/KYC/BankCertification/agree_Photo'), 0)
+	def googleAutoSavePassword(){
+		
+		if(Mobile.waitForElementPresent(findTestObject('Object Repository/Google/googleSavePassword'), 3)) {
+			
+			Mobile.tap(findTestObject('Object Repository/Google/googleSavePassword'), 0)
+			
 		}
 	}
 }

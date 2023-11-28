@@ -27,18 +27,18 @@ CustomKeywords.'customKeyword.StartFail.StartFailMessage'()
 '關閉活動提示訊息'
 CustomKeywords.'customKeyword.FirstEnter.closeActivity'()
 
-'點擊首頁'
-Mobile.tap(findTestObject('BottomNavigation/home'), 0)
+'點擊我的'
+Mobile.tap(findTestObject('BottomNavigation/mine'), 0)
+
+CustomKeywords.'customKeyword.FirstEnter.closeMineKnown'()
 
 '是否已登錄判斷；已登錄則登出'
-if (Mobile.waitForElementNotPresent(findTestObject('Object Repository/Login/home_Login'), 3)) {
+if (Mobile.waitForElementNotPresent(findTestObject('Object Repository/Mine/mine_Login'), 3)) {
     WebUI.callTestCase(findTestCase('Logout'), [:], FailureHandling.STOP_ON_FAILURE)
-	
-	Mobile.tap(findTestObject('BottomNavigation/home'), 0)
 }
 
 '點擊登錄'
-Mobile.tap(findTestObject('Object Repository/Login/home_Login'), 0)
+Mobile.tap(findTestObject('Object Repository/Mine/mine_Login'), 0)
 
 '輸入帳號'
 Mobile.setText(findTestObject('Object Repository/Login/MT4Account'), GlobalVariable.MT4Account, 0)

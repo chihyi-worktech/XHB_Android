@@ -30,12 +30,13 @@ public class deposit {
 
 		Mobile.setText(findTestObject('Object Repository/Mine/Deposit/depositAmount'), depositAmount, 0)
 		
+		Mobile.scrollToText("确认支付")
+		
 		if(Mobile.waitForElementPresent(findTestObject('Mine/Deposit/checkDeposit'), 3)) {
 			Mobile.tap(findTestObject('Mine/Deposit/checkDeposit'), 0)
 		}
 		else {
 			Mobile.tap(findTestObject('Object Repository/Mine/Deposit/checkDeposit_2'), 0)
-			
 		}
 
 		if(Mobile.waitForElementPresent(findTestObject('Object Repository/Mine/Deposit/blacklistMessage'), 3)) {

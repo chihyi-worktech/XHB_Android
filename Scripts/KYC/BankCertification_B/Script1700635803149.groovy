@@ -22,8 +22,10 @@ import java.util.Date as Date
 import java.io.FileReader as FileReader
 import java.io.BufferedReader as BufferedReader
 import java.io.IOException as IOException
+import java.io.FileWriter;
 
 String verificationCode
+String MT4Account
 
 '讀取檔案'
 FileReader fr = new FileReader('VerificationCode.txt')
@@ -64,5 +66,21 @@ if (Mobile.waitForElementPresent(findTestObject('Object Repository/KYC/BankCerti
     System.out.println('銀行卡認證申請提交成功')
 	
 	Mobile.pressBack()
+	
+	Mobile.pressBack()
+	
+	String temp=Mobile.getText(findTestObject('Object Repository/Mine/MT4Account'), 0)
+	
+	MT4Account=temp.substring(5,temp.length())
+	
+	'寫入需自動通過實名認證的MT4帳號'
+	FileWriter fw = new FileWriter("MT4Account.txt");
+	
+	fw.write(MT4Account);
+	
+	fw.flush();
+	
+	fw.close();
+	
 }
 

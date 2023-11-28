@@ -48,6 +48,12 @@ if (Mobile.waitForElementPresent(findTestObject('Object Repository/Mine/Withdraw
     String failMessage = Mobile.getText(findTestObject('Object Repository/Mine/Withdraw/failMessage'), 3)
 
     System.out.println('提交出金申請失敗，失敗原因：' + failMessage)
+	
+	String timeStamp = new SimpleDateFormat('yyyyMMddHHmmss').format(Calendar.getInstance().getTime())
+	
+	String filename = ('D:\\XHB\\Android\\ScreenShot\\WithdrawFail_' + timeStamp) + '.jpg'
+	
+	Mobile.takeScreenshot(filename, FailureHandling.STOP_ON_FAILURE)
 
     Mobile.pressBack()
 } else if (Mobile.waitForElementPresent(findTestObject('Object Repository/Mine/Withdraw/withdrawFail_Time'), 3)) {

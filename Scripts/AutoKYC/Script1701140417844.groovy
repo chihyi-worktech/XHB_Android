@@ -16,49 +16,57 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.io.FileWriter as FileWriter
+import java.io.IOException as IOException
 import java.io.FileReader as FileReader
 import java.io.BufferedReader as BufferedReader
-import java.io.IOException as IOException
-import java.text.DateFormat as DateFormat
-import java.text.SimpleDateFormat as SimpleDateFormat
-import java.util.Date as Date
 
-String verificationCode
+String MT4Account
 
-'讀取檔案'
-FileReader fr = new FileReader('VerificationCode.txt')
+'讀取MT4帳號'
+FileReader fr = new FileReader('MT4Account.txt')
 
 BufferedReader br = new BufferedReader(fr)
 
 while (br.ready()) {
-    verificationCode = br.readLine()
+    MT4Account = br.readLine()
 }
 
 fr.close()
 
-Mobile.startExistingApplication(GlobalVariable.applicationID, FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-'輸入驗證碼'
-Mobile.setText(findTestObject('SignUp/verificationCode'), verificationCode, 0)
+WebUI.navigateToUrl(GlobalVariable.KYCURL)
 
-'點擊下一步'
-Mobile.tap(findTestObject('SignUp/next'), 0)
+WebUI.setText(findTestObject('GetVerificationCode/Page_Login/CRMAccount'), GlobalVariable.CRMAccount)
 
-'判斷是否註冊成功'
-if (Mobile.waitForElementPresent(findTestObject('SignUp/next'), 3)) {
-    System.out.println('註冊失敗')
+WebUI.setText(findTestObject('GetVerificationCode/Page_Login/CRMPassword'), GlobalVariable.CRMPassword)
 
-    String timeStamp = new SimpleDateFormat('yyyyMMddHHmmss').format(Calendar.getInstance().getTime())
+WebUI.click(findTestObject('GetVerificationCode/Page_Login/CRMLogin'))
 
-    String filename = ('D:\\XHB\\Android\\ScreenShot\\SignUpFail_' + timeStamp) + '.jpg'
+WebUI.setText(findTestObject('AccountInfoModify/MT4Account'), MT4Account)
 
-    Mobile.takeScreenshot(filename, FailureHandling.STOP_ON_FAILURE)
-} else {
-    System.out.println('註冊成功')
+WebUI.click(findTestObject('AccountInfoModify/search'))
 
-    CustomKeywords.'customKeyword.Google.googleAutoSavePassword'()
+WebUI.click(findTestObject('AccountInfoModify/process'))
 
-    '點擊回到首頁'
-    Mobile.tap(findTestObject('Object Repository/SignUp/backToHome'), 0)
+WebUI.click(findTestObject('AccountInfoModify/SMSTemplate'))
+
+if(GlobalVariable.environment=="SIT") {
+	WebUI.click(findTestObject('Object Repository/AccountInfoModify/noReason_SIT'))
 }
+
+else if(GlobalVariable.environment=="PROD") {
+	WebUI.click(findTestObject('Object Repository/AccountInfoModify/noReason_PROD'))
+}
+
+else {
+	System.out.println("無設定環境");
+}
+
+WebUI.setText(findTestObject('AccountInfoModify/note'), '无原因，測試')
+
+WebUI.click(findTestObject('AccountInfoModify/KYC'))
+
+WebUI.closeBrowser()
 

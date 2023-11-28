@@ -21,11 +21,11 @@ Mobile.startExistingApplication(GlobalVariable.applicationID, FailureHandling.ST
 
 CustomKeywords.'customKeyword.FirstEnter.closeActivity'()
 
-'點擊首頁'
-Mobile.tap(findTestObject('BottomNavigation/home'), 0)
+'點擊我的'
+Mobile.tap(findTestObject('BottomNavigation/mine'), 0)
 
 '點擊註冊'
-Mobile.tap(findTestObject('SignUp/home_Signup'), 0)
+Mobile.tap(findTestObject('Mine/mine_Signup'), 0)
 
 '選擇註冊地區_中國'
 Mobile.tap(findTestObject('SignUp/registrationArea'), 0)

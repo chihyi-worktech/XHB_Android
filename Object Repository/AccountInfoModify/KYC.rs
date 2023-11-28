@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>KYC</name>
+   <tag></tag>
+   <elementGuidId>90ca84e3-b61e-4ef2-9f13-1309894d400c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.ant-btn.ant-btn-ghost.ant-btn-lg.gx-button-darkblue > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[3]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9f78b135-2bc1-47c1-b32f-fcfef57bf555</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>实名认证</value>
+      <webElementGuid>1e5c52d5-5678-47cd-ae1d-06c7b6690b75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[3]/div[1]/div[@class=&quot;ant-modal-wrap&quot;]/div[@class=&quot;ant-modal&quot;]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-footer&quot;]/button[@class=&quot;ant-btn ant-btn-ghost ant-btn-lg gx-button-darkblue&quot;]/span[1]</value>
+      <webElementGuid>2742bcfe-0d9f-495f-b663-fd2ab0a9d182</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[3]/span</value>
+      <webElementGuid>00f926ca-fed3-42a1-90b8-4043e58e7004</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '实名认证' or . = '实名认证')]</value>
+      <webElementGuid>f41ba131-aa23-4ee3-8fbb-3bb8854e9bd1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

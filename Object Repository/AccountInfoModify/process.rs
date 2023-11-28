@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>process</name>
+   <tag></tag>
+   <elementGuidId>ab08cc51-6b4f-4d0f-9fc7-508836ee5b9e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td:nth-of-type(10) > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div/div/div/span/div/table/tbody/tr/td[10]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ab6a1863-6c01-4bad-b7ca-b46b0c0c5614</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 处理 </value>
+      <webElementGuid>10d9e1a6-1510-4db1-b990-f17b40ff5229</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;gx-layout&quot;]/div[@class=&quot;gx-layout-main&quot;]/div[@class=&quot;gx-layout-container&quot;]/div[@class=&quot;gx-layout-content&quot;]/div[1]/div[@class=&quot;clearfix&quot;]/div[1]/div[@class=&quot;ant-spin-container&quot;]/div[@class=&quot;ant-table ant-table-default ant-table-bordered ant-table-scroll-position-left&quot;]/div[@class=&quot;ant-table-content&quot;]/div[1]/span[1]/div[@class=&quot;ant-table-body&quot;]/table[1]/tbody[@class=&quot;ant-table-tbody&quot;]/tr[@class=&quot;ant-table-row  ant-table-row-level-0&quot;]/td[10]/a[1]</value>
+      <webElementGuid>d051f496-7c4c-4452-b98c-ee3a6627693f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div/div/div/span/div/table/tbody/tr/td[10]/a</value>
+      <webElementGuid>73423335-0e57-4f62-a0dd-e350065f08cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'处理')]</value>
+      <webElementGuid>8bf8fe9f-e0eb-4964-9270-fcb4c5c66fb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[10]/a</value>
+      <webElementGuid>ed9476b4-8727-4954-bf32-ebc3e00c357d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = ' 处理 ' or . = ' 处理 ')]</value>
+      <webElementGuid>c449fdf4-7665-4848-bc81-04009f3846c4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
