@@ -1,31 +1,27 @@
 {
-  "keywordFileContentHash": "BC234053156B81DC21CE2AF321900EFB",
+  "keywordFileContentHash": "4E2C58E014252E63E8998BDF42D23322",
   "keywordClasses": [
     {
       "name": "customKeyword.FirstEnter",
       "keywordMethods": [
         {
           "name": "closeActivity",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "closeMineKnown",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "closeQuotationKnown",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "closeTradeKnown",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

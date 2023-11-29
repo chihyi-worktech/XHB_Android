@@ -53,6 +53,9 @@ if (Mobile.waitForElementPresent(findTestObject('SignUp/next'), 3)) {
     String filename = ('D:\\XHB\\Android\\ScreenShot\\SignUpFail_' + timeStamp) + '.jpg'
 
     Mobile.takeScreenshot(filename, FailureHandling.STOP_ON_FAILURE)
+	
+	Mobile.pressBack()
+	
 } else {
     System.out.println('註冊成功')
 

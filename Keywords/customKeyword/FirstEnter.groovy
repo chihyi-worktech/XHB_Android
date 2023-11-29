@@ -25,8 +25,8 @@ public class FirstEnter {
 	@Keyword
 	def closeActivity() {
 		'關閉活動提示訊息'
-		if (Mobile.waitForElementPresent(findTestObject('Object Repository/FirstEnter/closeActivity'), 3)) {
-
+		if (Mobile.waitForElementPresent(findTestObject('Object Repository/FirstEnter/activityImage'), 3)) {
+			
 			Mobile.tap(findTestObject('Object Repository/FirstEnter/closeActivity'), 0)
 		}
 	}

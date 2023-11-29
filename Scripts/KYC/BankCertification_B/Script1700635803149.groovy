@@ -58,16 +58,29 @@ if (Mobile.waitForElementPresent(findTestObject('Object Repository/KYC/BankCerti
 	
 	Mobile.tap(findTestObject('Object Repository/KYC/BankCertification/back'), 0)
 	
-	Mobile.pressBack()
+	while(Mobile.waitForElementPresent(findTestObject('Object Repository/KYC/text_KYC'), 3)) {
+		
+		Mobile.pressBack()
+	}
 	
-	Mobile.pressBack()
+	while(Mobile.waitForElementPresent(findTestObject('Object Repository/KYC/text_AccountManagement'), 3) && Mobile.waitForElementPresent(findTestObject('Object Repository/KYC/KYC'), 3)) {
+		
+		Mobile.pressBack()
+	}
+	
 } else {
 	
     System.out.println('銀行卡認證申請提交成功')
 	
-	Mobile.pressBack()
+	while(Mobile.waitForElementPresent(findTestObject('Object Repository/KYC/text_KYC'), 3)) {
+		
+		Mobile.pressBack()
+	}
 	
-	Mobile.pressBack()
+	while(Mobile.waitForElementPresent(findTestObject('Object Repository/KYC/text_AccountManagement'), 3) && Mobile.waitForElementPresent(findTestObject('Object Repository/KYC/KYC'), 3)) {
+		
+		Mobile.pressBack()
+	}
 	
 	String temp=Mobile.getText(findTestObject('Object Repository/Mine/MT4Account'), 0)
 	
