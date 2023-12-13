@@ -22,11 +22,15 @@ Mobile.startExistingApplication(GlobalVariable.applicationID)
 '同意隱私權政策'
 Mobile.tap(findTestObject('Object Repository/FirstStart/agreePrivacy'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(10)
 
 CustomKeywords.'customKeyword.StartFail.StartFailMessage'()
 
+WebUI.delay(2)
+
 Mobile.swipe(400, 200, 200, 200)
+
+WebUI.delay(2)
 
 Mobile.swipe(400, 200, 200, 200)
 

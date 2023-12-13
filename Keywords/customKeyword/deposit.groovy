@@ -29,9 +29,9 @@ public class deposit {
 	def submitDeposit(String depositAmount){
 
 		Mobile.setText(findTestObject('Object Repository/Mine/Deposit/depositAmount'), depositAmount, 0)
-		
+
 		Mobile.scrollToText("确认支付")
-		
+
 		if(Mobile.waitForElementPresent(findTestObject('Mine/Deposit/checkDeposit'), 3)) {
 			Mobile.tap(findTestObject('Mine/Deposit/checkDeposit'), 0)
 		}

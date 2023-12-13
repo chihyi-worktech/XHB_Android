@@ -6,22 +6,26 @@
       "keywordMethods": [
         {
           "name": "closeActivity",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "closeMineKnown",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "closeQuotationKnown",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "closeTradeKnown",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

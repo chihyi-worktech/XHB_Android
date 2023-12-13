@@ -44,7 +44,8 @@ else {
 String depositAmount
 
 '選擇入金支付渠道'
-if (Mobile.waitForElementPresent(findTestObject('Mine/Deposit/Alipay'), 3)) {
+/*支付寶未能正式啟用
+ * if (Mobile.waitForElementPresent(findTestObject('Mine/Deposit/Alipay'), 3)) {
     Mobile.tap(findTestObject('Mine/Deposit/Alipay'), 0)
 
     System.out.println('使用Alipay提交入金申請')
@@ -52,7 +53,17 @@ if (Mobile.waitForElementPresent(findTestObject('Mine/Deposit/Alipay'), 3)) {
     depositAmount = 135
 
     CustomKeywords.'customKeyword.deposit.submitDeposit'(depositAmount)
-} else if (Mobile.waitForElementPresent(findTestObject('Object Repository/Mine/Deposit/Anxpay'), 3)) {
+}*/
+if (Mobile.waitForElementPresent(findTestObject('Object Repository/Mine/Deposit/Bbpay'), 3)) {
+	Mobile.tap(findTestObject('Object Repository/Mine/Deposit/Bbpay'), 0)
+
+	System.out.println('使用Bbpay提交入金申請')
+
+	depositAmount = 500
+
+	CustomKeywords.'customKeyword.deposit.submitDeposit'(depositAmount)
+}
+ else if (Mobile.waitForElementPresent(findTestObject('Object Repository/Mine/Deposit/Anxpay'), 3)) {
     Mobile.tap(findTestObject('Object Repository/Mine/Deposit/Anxpay'), 0)
 
     System.out.println('使用Anxpay提交入金申請')
@@ -60,15 +71,9 @@ if (Mobile.waitForElementPresent(findTestObject('Mine/Deposit/Alipay'), 3)) {
     depositAmount = 500
 
     CustomKeywords.'customKeyword.deposit.submitDeposit'(depositAmount)
-} else if (Mobile.waitForElementPresent(findTestObject('Object Repository/Mine/Deposit/Bbpay'), 3)) {
-    Mobile.tap(findTestObject('Object Repository/Mine/Deposit/Bbpay'), 0)
-
-    System.out.println('使用Bbpay提交入金申請')
-
-    depositAmount = 500
-
-    CustomKeywords.'customKeyword.deposit.submitDeposit'(depositAmount)
-} else if (Mobile.waitForElementPresent(findTestObject('Object Repository/Mine/Deposit/BFTpay'), 3)) {
+} 
+ /*BFT Pay不再使用
+  * else if (Mobile.waitForElementPresent(findTestObject('Object Repository/Mine/Deposit/BFTpay'), 3)) {
     Mobile.tap(findTestObject('Object Repository/Mine/Deposit/BFTpay'), 0)
 
     System.out.println('使用BFTpay提交入金申請')
@@ -76,7 +81,8 @@ if (Mobile.waitForElementPresent(findTestObject('Mine/Deposit/Alipay'), 3)) {
     depositAmount = 500
 
     CustomKeywords.'customKeyword.deposit.submitDeposit'(depositAmount)
-} else if (Mobile.waitForElementPresent(findTestObject('Object Repository/Mine/Deposit/SITPayment'), 3)) {
+} */
+else if (Mobile.waitForElementPresent(findTestObject('Object Repository/Mine/Deposit/SITPayment'), 3)) {
     Mobile.tap(findTestObject('Object Repository/Mine/Deposit/SITPayment'), 0)
 
     System.out.println('使用SIT的支付寶提交入金申請')
